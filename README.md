@@ -1,7 +1,7 @@
 # Esp8266BasedCoronaVirusTracking
 
 
-# Let's pay attention to the warnings about corona virus. Stay at home.
+# Please pay attention to the warnings about corona virus. Let's Stay at home!
 
 
  1- Change your wifi information from **WifiConnect.h** file
