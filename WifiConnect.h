@@ -24,7 +24,8 @@ do {\
 #define PROTOCOL_PRINT(...) do{ }while(0);
 #endif 
 
-char* ConnectStatus2String(uint8_t ConnectStatusRet)
+char* 
+ConnectStatus2String(uint8_t ConnectStatusRet)
 {
   switch (ConnectStatusRet)
   {
@@ -38,7 +39,8 @@ char* ConnectStatus2String(uint8_t ConnectStatusRet)
   }
 }
 
-void ICACHE_FLASH_ATTR vConnWifiNetworkViaSdk(void)
+void ICACHE_FLASH_ATTR 
+vConnWifiNetworkViaSdk(void)
 {
   ulStart = millis();
   
@@ -55,7 +57,8 @@ void ICACHE_FLASH_ATTR vConnWifiNetworkViaSdk(void)
   wifi_station_set_config(&stationConf);
 }
 
-bool bGotIp(void)
+bool 
+bGotIp(void)
 {
   uint32_t ulElapsedTime = 0;
   
